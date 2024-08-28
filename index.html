@@ -2,14 +2,181 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jasmin</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Jasmine Nursing Home</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />   
+    <link rel="stylesheet" href="css/aos.css" />   
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-   <header>
-    <h1>this is header</h1>
-    <a href="#"><img src="images/logo.png" alt="image"/></a>
-   </header>  
+    <header class="header_container">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="image"/></a>                   
+            </div>
+            <div class="header_right">                   
+                <div class="header_menu">
+                    <ul class="menu-list">
+                        <li class="current-menu-item"><a href="#0">Home</a></li>
+                        <li><a href="#0">about us</a></li>
+                        <li><a href="#0">Why us</a></li>
+                        <li><a href="#0">services</a></li>                        
+                        <li><a href="#0">blog</a></li>
+                        <li><a href="#0">career</a></li>
+                        <li><a href="#">contact us</a></li>                       
+                    </ul>
+                </div>
+                <button class="btn menu-btn">                
+                    <span class="icon">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </span>
+                </button>            
+            </div>
+        </div>  
+    </header>
+    
+    <section class="banner">
+        <div class="owl-carousel" id="banner">
+            <div class="banner-item">
+                <img class="desktop_banner" src="images/banner.png" alt="banner" />
+                <img class="mobile_banner" src="images/mobile_banner.png" alt="banner" />
+                <div class="content">
+                    <div class="banner_content">
+                        <h4>Welcome To</h4> 
+                        <h1>jasmine nursing home</h1> 
+                        <h3>Where Excellence in caring is our Standard</h3>
+                    </div>   
+                </div>
+            </div>
+            <div class="banner-item">
+                <img class="desktop_banner" src="images/banner.png" alt="banner" />
+                <img class="mobile_banner" src="images/mobile_banner.png" alt="banner" />
+                <div class="content">
+                    <div class="banner_content">
+                        <h4>Welcome To</h4> 
+                        <h1>jasmine nursing home</h1> 
+                         <h3>Where Excellence in caring is our Standard</h3>
+                    </div>   
+                </div>
+            </div>
+            <div class="banner-item">
+                <img class="desktop_banner" src="images/banner.png" alt="banner" />
+               <img class="mobile_banner" src="images/mobile_banner.png" alt="banner" />
+                <div class="content">
+                    <div class="banner_content">
+                        <h4>Welcome To</h4> 
+                        <h1>jasmine nursing home</h1> 
+                         <h3>Where Excellence in caring is our Standard</h3>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="aim_container animation" data-aos="fade-up">
+        <div class="content">
+            <div class="main_tittle">our aim</div>
+            <p>
+                Jasmine Nursing Home was purposely built to care for residents and satisfy their specific needs according to individual requirements. Our parent company, Caring First Limited, has over the last eighteen years participated heavily not only in the construction of homes for the elderly but more appropriately has invested in personnel training.
+
+            </p>
+            <p>
+                We intend to keep expanding locally in the healthcare sector. This will not be limited to the sector of elderly care, but we have already diversified into the hospitality sector. Therefore, we are ensuring that Jasmine Nursing Home continues to be another jewel in the crown of our company. Here we promise the best private care services, aiming to attain the best outcomes and resident’s satisfaction.
+
+            </p>
+            <div class="name">-Dr. Louis Buhagiar</div>
+            <div class="qualification">MD MRCP MRCS FRCP</div>
+            <div class="designation">chairman</div>
+        </div>
+        <div class="image">
+            <img class="desktop_aim" src="images/aim_img.png" alt="image"/>
+            <img class="mobile_aim" src="images/aim_mobimg.png" alt="image"/>
+        </div>
+    </section>
+    
+    <section class="homeservice_container animation" data-aos="fade-up">
+        <div class="container">
+            <div class="main_tittle purple">our services</div>
+            <div class="homeservice_wrapper">
+                <div id="homeservice" class="owl-carousel">
+                    <div class="item">
+                        <div class="block">
+                            <div class="icon"><img src="images/nursing_icon.png" alt="image"/></div>                            
+                            <div class="tittle">nursing care</div> 
+                            <p>
+                                One very important person will be the nurse who will be responsible for your nursing care. The nurse will make sure that you......
+                            </p>
+                            <a class="readmore">read more</a>                            
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block">
+                            <div class="icon"><img src="images/medical_icon.png" alt="image"/></div>                            
+                            <div class="tittle">medical care</div> 
+                            <p>
+                                You are entitled to be medically cared for by the Health Center General Practitioner. You may wish to get your own.......
+                            </p>
+                            <a class="readmore">read more</a>                            
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block">
+                            <div class="icon"><img src="images/medicinal_icon.png" alt="image"/></div>                            
+                            <div class="tittle">medicinal care</div> 
+                            <p>
+                                Any medication which you are entitled to by the government shall be obtained by your next of kin from the pharmacy.......
+                            </p>
+                            <a class="readmore">read more</a>                            
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block">
+                            <div class="icon"><img src="images/nursing_icon.png" alt="image"/></div>                            
+                            <div class="tittle">nursing care</div> 
+                            <p>
+                                One very important person will be the nurse who will be responsible for your nursing care. The nurse will make sure that you......
+                            </p>
+                            <a class="readmore">read more</a>                            
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block">
+                            <div class="icon"><img src="images/medical_icon.png" alt="image"/></div>                            
+                            <div class="tittle">medical care</div> 
+                            <p>
+                                You are entitled to be medically cared for by the Health Center General Practitioner. You may wish to get your own.......
+                            </p>
+                            <a class="readmore">read more</a>                            
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="block">
+                            <div class="icon"><img src="images/medicinal_icon.png" alt="image"/></div>                            
+                            <div class="tittle">medicinal care</div> 
+                            <p>
+                                Any medication which you are entitled to by the government shall be obtained by your next of kin from the pharmacy.......
+                            </p>
+                            <a class="readmore">read more</a>                            
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <button class="goto-top"></button>
+    <script src="js/jquery-3.2.1.min.js"></script>    
+    <script src="js/SmoothScroll.js"></script> 
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.js"></script>    
+    <script src="js/javascript.js"></script>    
 </body>
 </html>
